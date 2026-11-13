@@ -23,6 +23,6 @@ class LinearRegression:
 
         return y_hat
 
-    def evalute(self, y: np.ndarry, y_hat: np.ndarry):
+    def evalute(self, y: np.ndarray, y_hat: np.ndarray):
         rmse = ((y - y_hat)**2).mean()**0.5    
         return rmse
